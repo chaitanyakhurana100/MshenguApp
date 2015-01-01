@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/gen/com/actionbarsherlock/BuildConfig.java" />
+      <file url="file://$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/gen/com/actionbarsherlock/Manifest.java" />
+      <file url="file://$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/gen/com/actionbarsherlock/R.java" />
+      <file url="file://$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/gen/com/viewpagerindicator/BuildConfig.java" />
+      <file url="file://$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/gen/com/viewpagerindicator/Manifest.java" />
+      <file url="file://$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/gen/com/viewpagerindicator/R.java" />
+      <file url="file://$PROJECT_DIR$/target/generated-sources/r/com/actionbarsherlock/BuildConfig.java" />
+      <file url="file://$PROJECT_DIR$/target/generated-sources/r/com/actionbarsherlock/R.java" />
+      <file url="file://$PROJECT_DIR$/target/generated-sources/r/com/example/secondAndroid/BuildConfig.java" />
+      <file url="file://$PROJECT_DIR$/target/generated-sources/r/com/example/secondAndroid/R.java" />
+      <file url="file://$PROJECT_DIR$/target/generated-sources/r/com/viewpagerindicator/BuildConfig.java" />
+      <file url="file://$PROJECT_DIR$/target/generated-sources/r/com/viewpagerindicator/R.java" />
+    </excludeFromCompile>
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="actionbarsherlock" />
+        <module name="secondAndroid" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="actionbarsherlock" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mshengu </string>
+    <string name="editText1">Please enter your name</string>
+    <string name="submitButton1">Submit</string>
+    <string name="title2">Message Activity</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="settings">Settings</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tv1">View 1</string>
+    <string name="tv2">View 2</string>
+    <string name="tv3">View 3</string>
+    <string name="tv4">View 4</string>
+    <string name="tv11">View 1</string>
+    <string name="tv12">View 1</string>
+    <string name="tv13">View 1</string>
+    <string name="tv14">View 1</string>
+    <string name="tv15">View 1</string>
+    <string name="map">Map</string>
+</resources>

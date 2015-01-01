@@ -1,0 +1,637 @@
+package com.three_shadows.trackmycar.ui;
+
+import java.lang.reflect.Array;
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
+import com.three_shadows.trackmycar.R;
+import com.three_shadows.trackmycar.R.layout;
+import com.three_shadows.trackmycar.R.menu;
+import com.three_shadows_trackmycar.db.DbHandler;
+import com.three_shadows_trackmycar.logic.CarLocation;
+import com.three_shadows_trackmycar.logic.HttpConnection;
+import com.three_shadows_trackmycar.logic.LocationService;
+import com.three_shadows_trackmycar.logic.LocatorService;
+
+import com.three_shadows_trackmycar.logic.RouteJSONParser;
+import com.three_shadows_trackmycar.logic.RouteService;
+import com.three_shadows_trackmycar.logic.LocationService.CurrentLocationBroadcastThread;
+
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
+import android.provider.Settings;
+import android.app.Activity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.database.Cursor;
+import android.graphics.Color;
+import android.graphics.Point;
+import android.util.Log;
+import android.view.Display;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.Toast;
+
+public class MainActivity extends Activity  {
+	private Button saveLocationButton;
+	private Button findLocationButton;
+	private LocatorService locatorService;
+	private LocationService locationService;
+	private RouteService routeService;
+	private ArrowView arrowView;
+	private MapView mapView;
+	private GoogleMap googleMap;
+	LocationManager locationManager;
+	LocationListener gpsLocationListener,networkLocationListener;
+	double latitude,longitude;
+	Marker m;
+	Marker savedMarker,currentMarker;
+	Intent locationIntent,routeIntent;
+	SavedLocationReceiver savedReceiver;
+	CurrentLocationReceiver currentReceiver;
+	RouteReceiver routeReceiver;
+	public static final String BROADCAST_SAVE_LOCATION = "com.three_shadows_trackmycar.savelocation";
+	public static final String BROADCAST_CURRENT_LOCATION = "com.three_shadows_trackmycar.currentlocation";
+	double savedLat=0,savedLon=0,currentLat=0,currentLon=0;
+	DbHandler dbHandler;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		saveLocationButton = (Button)findViewById(R.id.save_btn);
+		findLocationButton = (Button)findViewById(R.id.find_btn);
+		locationIntent = new Intent(getApplicationContext(), LocationService.class);
+		routeIntent = new Intent(getApplicationContext(), RouteService.class);
+		/*map was added here*/
+		savedMarker=null;
+		currentMarker=null;
+		
+		addSavedLocationToMap();
+		locationService = new LocationService(this);
+		
+		//String url = getMapsApiDirectionsUrl(62.23,23.30,63.56,24.40);
+		routeService = new RouteService(this);
+		
+		
+		/*arrowView = (ArrowView)findViewById(R.id.arrowView);
+		locatorService = new LocatorService(this);
+		arrowView.setLocatorService(locatorService);*/
+		
+		//mock starts
+		
+				 
+		  		
+		saveLocationButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				if ( !locationService.saveCarLocation() ) {
+					Toast.makeText(getApplicationContext(), getResources().getString(R.string.activate_gps), Toast.LENGTH_LONG).show();
+                	final Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS); 
+                	startActivity(intent);
+            	}
+            	else {
+            		// use this to start and trigger a service
+            		Context ctx=getApplicationContext();
+            		//intent = new Intent(this, LocationService.class);
+            		// potentially add data to the intent
+            		//intent.putExtra("Latitude", "50.30");
+            		//intent.putExtra("Longitude", "20.30");
+     
+            		//Toast.makeText(getApplicationContext(), getResources().getString(R.string.success), Toast.LENGTH_LONG).show();
+            	}
+			}
+			});
+		
+
+		    
+	
+		/*saveLocationButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+            	if ( !locatorService.saveCarLocation() ) {
+            		Toast.makeText(getApplicationContext(), getResources().getString(R.string.activate_gps), Toast.LENGTH_LONG).show();
+
+                	final Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                	startActivity(intent);
+            	}
+            	else {
+            		Toast.makeText(getApplicationContext(), getResources().getString(R.string.success), Toast.LENGTH_LONG).show();
+            	}
+            }
+        });*/
+		
+		/*findLocationButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+            	if ( !locatorService.isCarLocatorServiceOn() && locatorService.isFreshLocation()  )
+            		locatorService.startCarLocator();
+            	else 
+            		Toast.makeText(getApplicationContext(), getResources().getString(R.string.save_location_first), Toast.LENGTH_LONG).show();
+            	
+            	//Toast.makeText(getApplicationContext(), locatorService.getCarLocation().getLat()+" "+locatorService.getCarLocation().getLon(), Toast.LENGTH_LONG).show();
+            }
+        });*/
+	
+	}
+	private void addSavedLocationToMap() {
+		// TODO Auto-generated method stub
+		
+		double cLat=0,cLon=0,sLat=0,sLon=0;
+		try { 
+	        if (googleMap == null) {
+	        	googleMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();	
+	        }
+	        if (googleMap!=null){
+	        	CarLocation carLocation=(CarLocation) addPreviouslySavedLocation();
+	    	    LatLng latLng = new LatLng(carLocation.getLat(), carLocation.getLon());
+	    	    if(carLocation.getLat()>0){
+	    	    	if(savedMarker==null){
+	    	    	savedMarker=googleMap.addMarker(new MarkerOptions().position(latLng)
+	    	    		.title("Your car is parked here!")
+	            		.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+	    	    	}else{
+	    	    		savedMarker.setPosition(latLng);
+	    	    	}
+	    	    }
+	    	    CameraUpdate cameraUpdate=null;
+	    	    if((currentMarker!=null)&&(savedMarker!=null)){
+	    	    	
+	    	    	cameraUpdate = CameraUpdateFactory.newLatLng(latLng);
+	    	    	
+	    	    	cLat=currentMarker.getPosition().latitude;
+	    	    	cLon=currentMarker.getPosition().longitude;
+	    	    	sLat=savedMarker.getPosition().latitude;
+	    	    	sLon=savedMarker.getPosition().longitude;
+	    	    	String url = getMapsApiDirectionsUrl(sLat,sLon,cLat,cLon);
+	    	    	routeIntent.putExtra("url", url);
+	    	    	startService(routeIntent);
+	    	    }else{
+	    	    	cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,14);
+	    	    	googleMap.animateCamera(cameraUpdate);
+	    	    }
+	    	    
+
+	    	    /*if(currentMarker!=null)
+	    	    {
+	    	    	//fitAllMarkersToScreen(currentMarker,savedMarker);
+	    	    	cLat=currentMarker.getPosition().latitude;
+	    	    	cLon=currentMarker.getPosition().longitude;
+	    	    	sLat=savedMarker.getPosition().latitude;
+	    	    	sLon=savedMarker.getPosition().longitude;
+	    	    	String url = getMapsApiDirectionsUrl(sLat,sLon,cLat,cLon);
+	    	    	routeIntent.putExtra("url", url);
+	    	    	startService(routeIntent);
+	    	    }*/
+	           }   
+			} catch (Exception e) {
+					Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();
+			}
+		
+	}
+	/*
+	@Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        arrowView.initView();
+    }*/
+
+	
+    @Override
+    protected void onStart() {
+    	
+          //Register BroadcastReceiver to receive event from our service
+          savedReceiver = new SavedLocationReceiver();
+          IntentFilter intentFilter = new IntentFilter();
+          intentFilter.addAction(LocationService.BROADCAST_SAVE_LOCATION);
+          registerReceiver(savedReceiver, intentFilter); 
+    	            
+          currentReceiver = new CurrentLocationReceiver();
+          IntentFilter intentFilter1 = new IntentFilter();
+          intentFilter1.addAction(LocationService.BROADCAST_CURRENT_LOCATION);
+          registerReceiver(currentReceiver, intentFilter1);
+         
+          routeReceiver = new RouteReceiver();
+          IntentFilter intentFilter2 = new IntentFilter();
+          intentFilter2.addAction(HttpConnection.BROADCAST_ROUTE);
+          registerReceiver(routeReceiver, intentFilter2);
+    	            
+          //startService(new Intent("com.three_shadows.trackmycar.logic.LocationService"));
+          //startService(new Intent("com.three_shadows.trackmycar.logic.RouteService"));
+          
+          //startService(routeIntent);
+          
+    	  super.onStart();
+    }
+    
+    @Override
+    public void onResume() {
+        super.onResume();        
+        startService(locationIntent);
+   }      
+    
+    @Override
+    public void onPause() {
+        super.onPause();
+        stopService(locationIntent);
+        stopService(routeIntent);
+    }
+	
+    @Override
+    protected void onStop() {
+     // TODO Auto-generated method stub
+    	super.onStop();
+    }
+    
+    public Object addPreviouslySavedLocation()
+    {
+    		double latitude=0,longitude=0,savedLatitude=0,savedLongitude=0;
+    		String type="";
+	       dbHandler=new DbHandler(getApplicationContext());
+		   dbHandler.open();
+			try{
+			Cursor cursor1=dbHandler.readLocation();
+			if(cursor1.moveToFirst()){
+				do{
+					latitude=cursor1.getDouble(0);
+					longitude=cursor1.getDouble(1);
+					type=cursor1.getString(2);
+					if(type.equals("Save")){
+						savedLatitude=latitude;
+						savedLongitude=longitude;
+					}
+				}while(cursor1.moveToNext());
+			}}catch(Exception e){}
+			CarLocation carLocation=new CarLocation(0, 0);
+			carLocation.setLat(savedLatitude);
+			carLocation.setLon(savedLongitude);			
+			return carLocation; 
+			//changeMarkerPosition(savedLatitude,savedLongitude,"Saved");  	
+    }
+    
+    public boolean checkIfCameraUpdateRequired(double latitude,double longitude){
+    	
+    	boolean update=false;
+    	
+    	if((currentMarker!=null)&&(savedMarker!=null)){
+		    	if((currentMarker.getPosition().latitude<latitude)&&(latitude<savedMarker.getPosition().latitude)){
+		    		update=false;
+		    	}else if((currentMarker.getPosition().latitude>latitude)&&(latitude>savedMarker.getPosition().latitude)){
+		    		update=false;
+		    	}else{
+		    		update=true;
+		    	}
+		    	if((currentMarker.getPosition().longitude<longitude)&&(longitude<savedMarker.getPosition().longitude)){
+		    		update=false;
+		    	}else if((currentMarker.getPosition().longitude>longitude)&&(longitude>savedMarker.getPosition().longitude)){
+		    		update=false;
+		    	}else{
+		    		update=true;
+		    	}
+    	}else{
+    		update=true;
+    	}
+    	
+    	return update;
+    }
+	   
+	   public void changeMarkerPosition(double latitude,double longitude,String type)
+	    {
+		   
+		   	    if ((latitude>0)&&(longitude>0)) {
+		        	//googleMap.clear();
+		            //googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+		           
+		   	    	CameraUpdate cameraUpdate;
+		            LatLng latLng;
+		        	if(type.equals("Saved"))
+		        	{
+		        		savedLat=latitude;
+		        		savedLon=longitude;
+		        	    latLng = new LatLng(savedLat, savedLon);
+		        	    //latLng = new LatLng(50, 50);
+		        	}else{
+		        		currentLat=latitude;
+		        		currentLon=longitude;		
+		        	    latLng = new LatLng(currentLat, currentLon);
+		        	    Log.d("ye kya h be?","ye kya h be?");
+		        	    if(savedMarker==null){
+				        	//googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+		        	    	cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,14);
+			    	    	googleMap.animateCamera(cameraUpdate);
+			        	}else{
+			        		Log.d("yha kuch aur krte","yha kuch aur krte");
+			        		
+			        	}
+		        	}
+		        	
+	            if(currentLat>0){
+	            	if(currentMarker==null){
+	            	    currentMarker=googleMap.addMarker(new MarkerOptions().position(new LatLng(currentLat, currentLon))
+	            		.title("You are here!")
+	            		.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+	            	}else{
+	            		currentMarker.setPosition(new LatLng(currentLat, currentLon));
+	            	}
+	            	//addSavedLocationToMap();
+	            }
+	            if(savedLat>0){
+	            if(savedMarker==null){
+	            	savedMarker=googleMap.addMarker(new MarkerOptions().position(new LatLng(savedLat, savedLon))
+	            		.title("Your car is parked here!")
+	            		.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+	            	}else{
+	            		savedMarker.setPosition(new LatLng(savedLat, savedLon));
+	            	}
+	            }
+	            
+	            //    (new GetAddressTask(getApplicationContext())).execute(location);
+
+	        }
+	    }
+	   
+
+
+	   
+	   private class SavedLocationReceiver extends BroadcastReceiver{
+		   
+		   @Override
+		   public void onReceive(Context arg0, Intent arg1) {
+		    // TODO Auto-generated method stub
+		     double savedLat=0,savedLon=0;
+		     savedLat = arg1.getDoubleExtra("latitude", 0);	
+		     savedLon = arg1.getDoubleExtra("longitude", 0);	
+		     //Toast.makeText(getApplicationContext(),"Triggered by Service!\n"+ "Data passed: " + savedLat+""+savedLon,Toast.LENGTH_LONG).show();
+		     changeMarkerPosition(savedLat,savedLon,"Saved");
+		     //googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+	         /*LatLng latLng = new LatLng(savedLat, savedLon);
+	         googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+	         googleMap.animateCamera(CameraUpdateFactory.zoomTo(15));
+	         googleMap.addMarker(new MarkerOptions().position(new LatLng(savedLat, savedLon))
+	        		 .title("Your car is parked here!")
+	        		 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));*/
+		     
+	         
+		   }
+	   }
+	   
+	   private class CurrentLocationReceiver extends BroadcastReceiver{
+		   
+		   @Override
+		   public void onReceive(Context arg0, Intent arg1) {
+		    // TODO Auto-generated method stub
+			 double currentLat=0,currentLon=0;
+		     currentLat = arg1.getDoubleExtra("current_latitude", 0);
+		     currentLon = arg1.getDoubleExtra("current_longitude", 0);
+		     //Toast.makeText(getApplicationContext(),"Current location!\n"+ "Data passed: " + currentLat+""+currentLon,Toast.LENGTH_LONG).show();
+		     changeMarkerPosition(currentLat,currentLon,"Current");
+		     //googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+	         /*LatLng latLng = new LatLng(currentLat, currentLon);
+	         googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+	         googleMap.animateCamera(CameraUpdateFactory.zoomTo(15));
+	         googleMap.addMarker(new MarkerOptions().position(new LatLng(currentLat, currentLon))
+	        		 .title("Your are here!")
+	        		 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));*/
+	         
+		   }
+	   }
+	   
+	   
+	   	private class RouteReceiver extends BroadcastReceiver{
+	   	  Polyline polyLine=null;  
+	   	  JSONObject jObject;
+	   	  Double[] newBounds,oldBounds=new Double[4];
+	   	  
+		 List<List<HashMap<String, String>>> routes = null;
+		
+
+		@Override
+		   public void onReceive(Context arg0, Intent arg1) {
+		    // TODO Auto-generated method stub
+			 //double currentLat=0,currentLon=0;
+			   List<List<HashMap<String, String>>> routes=null;
+			   String routeJson="";
+			   routeJson = arg1.getStringExtra("route");
+			   try {
+				jObject = new JSONObject(routeJson);
+			   } catch (JSONException e) {
+				   // TODO Auto-generated catch block
+				   e.printStackTrace();
+			   }
+			   RouteJSONParser parser = new RouteJSONParser();
+			   routes = parser.parse(jObject);
+		
+		     
+		     //Toast.makeText(getApplicationContext(),"Route123->"+routes.toString(),Toast.LENGTH_LONG).show();
+		     
+				ArrayList<LatLng> points = null;
+				PolylineOptions polyLineOptions = null;
+				List<Double> latitude = new ArrayList<Double>();
+				List<Double> longitude = new ArrayList<Double>();
+				double minLat=0,minLon=0,maxLat=0,maxLon=0;
+				// traversing through routes
+				
+				for (int i = 0; i < routes.size(); i++) {
+					points = new ArrayList<LatLng>();
+					if(i==0){
+						points.add(new LatLng(savedMarker.getPosition().latitude,savedMarker.getPosition().longitude));
+					}
+					polyLineOptions = new PolylineOptions();
+					List<HashMap<String, String>> path = routes.get(i);
+
+					for (int j = 0; j < path.size(); j++) {
+						HashMap<String, String> point = path.get(j);
+
+						double lat = Double.parseDouble(point.get("lat"));
+						latitude.add(lat);
+						double lng = Double.parseDouble(point.get("lng"));
+						longitude.add(lng);
+						LatLng position = new LatLng(lat, lng);
+						points.add(position);
+					}
+					if(i==(routes.size()-1)){
+						points.add(new LatLng(currentMarker.getPosition().latitude,currentMarker.getPosition().longitude));
+					}
+					polyLineOptions.addAll(points);
+					polyLineOptions.width(3);
+					polyLineOptions.color(Color.BLUE);
+				}		
+				
+				//Fit markers
+				
+				newBounds=getMinMaxLatLon(latitude,longitude);
+				double oldMinLat=0,oldMinLon=0,oldMaxLat=0,oldMaxLon=0,newMinLat=1,newMinLon=1,newMaxLat=1,newMaxLon=1;
+				if(oldBounds[0]!=null){
+					oldMinLat = (double) Math.round(oldBounds[0] * 1000) / 1000;
+				}
+				if(newBounds[0]!=null){
+					newMinLat= (double) Math.round(newBounds[0] * 1000) / 1000;
+				}
+				if(oldBounds[1]!=null){
+					oldMinLon = (double) Math.round(oldBounds[1] * 1000) / 1000;
+				}
+				if(newBounds[1]!=null){
+					newMinLon= (double) Math.round(newBounds[1] * 1000) / 1000;
+				}
+				if(oldBounds[2]!=null){
+					oldMaxLat = (double) Math.round(oldBounds[2] * 1000) / 1000;
+				}
+				if(newBounds[2]!=null){
+					newMaxLat= (double) Math.round(newBounds[2] * 1000) / 1000;
+				}
+				if(oldBounds[3]!=null){
+					oldMaxLon = (double) Math.round(oldBounds[3] * 1000) / 1000;
+				}
+				if(newBounds[3]!=null){
+					newMaxLon= (double) Math.round(newBounds[3] * 1000) / 1000;
+				}
+				
+				
+				Log.d("oldnewMinLat","one "+oldMinLat+" "+newMinLat);
+				Log.d("oldnewMinLon","one "+oldMinLon+" "+newMinLon);
+				Log.d("oldnewMaxLat","one "+oldMaxLat+" "+newMaxLat);
+				Log.d("oldnewMaxLon","one "+oldMaxLon+" "+newMaxLon);
+				
+				if((oldMinLat!=newMinLat)||(oldMaxLat!=newMaxLat)||(oldMinLon!=newMinLon)||(oldMaxLon!=newMaxLon))
+				{
+					//Log.d("nothing2","yippy it works!!");
+					oldBounds=newBounds;
+					//fitAllMarkersToScreen(new LatLng(newBounds[0],newBounds[1]),new LatLng(newBounds[2],newBounds[3]));
+				}
+				else{
+					Log.d("nothing2","old bounds hain");
+				}
+				
+				fitAllMarkersToScreen(new LatLng(newBounds[0],newBounds[1]),new LatLng(newBounds[2],newBounds[3]));
+				/*if((oldBounds[0]==newBounds[0])&&(oldBounds[1]==newBounds[1])&&(oldBounds[2]==newBounds[2])&&(oldBounds[3]==newBounds[3]))
+				{
+					Log.d("nothing","nothing");
+				}else{
+					oldBounds=newBounds;
+					Log.d("nothing2","nothing2"+newBounds[0].toString()+" old->"+oldBounds[0]);
+				
+				fitAllMarkersToScreen(new LatLng(newBounds[0],newBounds[1]),new LatLng(newBounds[2],newBounds[3]));
+				}*/
+				//add line
+				if(polyLine!=null)
+				{
+					polyLine.remove();
+				}
+				polyLine=googleMap.addPolyline(polyLineOptions);
+		    
+		   }
+
+
+				private Double[] getMinMaxLatLon(List <Double> latitude,List <Double> longitude) {
+					// TODO Auto-generated method stub
+					Double[] bounds = new Double[4];
+					double minLat=0,minLon=0,maxLat=0,maxLon=0; 
+					Collections.sort(latitude);
+					Collections.sort(longitude);
+					minLat=latitude.get(0);
+					minLon=longitude.get(0);
+					maxLat=latitude.get(latitude.size()-1);
+					maxLon=longitude.get(longitude.size()-1);
+					if(minLat>currentMarker.getPosition().latitude)
+						{
+							minLat=currentMarker.getPosition().latitude;
+						}
+					if(minLat>savedMarker.getPosition().latitude)
+						{
+							minLat=savedMarker.getPosition().latitude;
+						}
+					if(minLon>currentMarker.getPosition().longitude)
+						{
+							minLon=currentMarker.getPosition().longitude;
+						}
+					if(minLon>savedMarker.getPosition().longitude)
+						{
+							minLon=savedMarker.getPosition().longitude;
+						}
+					if(maxLat<currentMarker.getPosition().latitude)
+						{
+							maxLat=currentMarker.getPosition().latitude;
+						}
+					if(maxLat<savedMarker.getPosition().latitude)
+						{
+							maxLat=savedMarker.getPosition().latitude;
+						}
+					if(maxLon<currentMarker.getPosition().longitude)
+						{
+							maxLon=currentMarker.getPosition().longitude;
+						}
+					if(maxLon<savedMarker.getPosition().longitude)
+						{
+							maxLon=savedMarker.getPosition().longitude;
+						}
+					bounds[0]=minLat;
+					bounds[1]=minLon;
+					bounds[2]=maxLat;
+					bounds[3]=maxLon;
+					
+					return bounds;
+					
+				}
+	   }
+	   
+	   public void fitAllMarkersToScreen(LatLng min, LatLng max)
+	   {
+		   //(Marker currentMarker, Marker savedMarker)
+		   LatLngBounds.Builder b = new LatLngBounds.Builder();
+		   //b.include(currentMarker.getPosition());
+		   //b.include(savedMarker.getPosition());
+		   b.include(min);
+		   b.include(max);
+		   LatLngBounds bounds = b.build();
+		   //Change the padding as per needed
+		   CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds,100);
+		   //CameraUpdate cu = CameraUpdateFactory.newLatLngBou(bounds);
+		    //googleMap.moveCamera(cu);
+		   googleMap.animateCamera(cu);
+		   
+	   }
+	   
+
+		private String getMapsApiDirectionsUrl(double savedLat,double savedLong,double currentLat,double currentLon) {
+			String waypoints = "waypoints=optimize:true|"
+					+ savedLat + "," + savedLong
+					+ "|" + "|" + currentLat + ","
+					+ currentLon;
+			String sensor = "sensor=false";
+			String params = waypoints + "&" + sensor;
+			String output = "json";
+			String url = "https://maps.googleapis.com/maps/api/directions/"
+					+ output + "?" + params;
+			return url;
+		}
+
+
+}
+
+

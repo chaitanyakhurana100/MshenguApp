@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="actionbarsherlock-4.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/target/actionbarsherlock-4.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

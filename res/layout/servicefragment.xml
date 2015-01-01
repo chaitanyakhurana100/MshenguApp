@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/fragment1"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+    <Button
+            android:id="@+id/scanButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="Scan Toilet Unit"
+            style="@style/btnStyleGenoa"
+            android:background="@xml/mshengubutton"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content">
+
+
+
+        <TextView   android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unit ID:"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                   />
+
+            <EditText android:layout_height="wrap_content"
+                      android:layout_width="fill_parent"
+                    android:id="@+id/unitID"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Press scan button"
+                    />
+
+       </LinearLayout>
+
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pump Out"
+                    android:textSize="20dp"
+                    android:id="@+id/pump_out"
+                    android:checked="false"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wash Bucket"
+                    android:textSize="20dp"
+                    android:id="@+id/wash_bucket"
+                    android:checked="false"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suction Out"
+                    android:textSize="20dp"
+                    android:id="@+id/suction_out"
+                    android:checked="false"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recharge Bucket"
+                    android:textSize="20dp"
+                    android:id="@+id/recharge_bucket"
+                    android:checked="false"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scrub Floor"
+                    android:textSize="20dp"
+                    android:id="@+id/scrub_floor"
+                    android:checked="false"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clean Perimeter"
+                    android:textSize="20dp"
+                    android:id="@+id/clean_perimeter"
+                    android:checked="false"/>
+
+
+        </TableRow>
+
+
+        </TableLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content">
+
+
+
+            <TextView   android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Report Incident:"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                    />
+
+            <EditText android:layout_height="wrap_content"
+                      android:layout_width="fill_parent"
+                      android:id="@+id/reportIncident"
+                      android:layout_marginRight="10dp"
+                      android:layout_marginLeft="10dp"
+
+
+                    />
+
+        </LinearLayout>
+
+
+
+        <Button
+                android:id="@+id/submitButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:background="@xml/mshengubutton"
+                style="@style/btnStyleGenoa"
+
+                android:text="Submit Service"/>
+
+
+
+        <!--    <EditText android:id="@+id/editText1"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:hint="@string/editText1"
+                    />
+
+            <Button android:id="@+id/button1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submitButton1"
+                    />
+
+
+
+            <TextView android:id="@+id/tv1"
+                      android:text="@string/tv1"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                   />
+            <TextView android:id="@+id/tv_country"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:text="Country"
+                    />      -->
+
+   <!--  <AutoCompleteTextView android:id="@+id/actv"
+                              android:layout_height="wrap_content"
+                              android:layout_width="fill_parent"
+                              android:layout_marginLeft="10dp"
+                             android:hint="Enter country name" />
+
+       -->
+
+
+
+
+           </LinearLayout>
+
+                   </ScrollView>
+
+</LinearLayout>

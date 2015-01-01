@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:text="Server Address (URL) "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:id="@+id/tv_url"
+         />
+
+    <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textUri"
+            android:id="@+id/url_editText"
+            android:hint="e.g. http://mshengu.com:8080"
+            />
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="20dp"
+           android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            style="@style/btnStyleGenoa"
+            android:text="Add Address"
+            android:id="@+id/url_add_button"
+            android:background="@xml/mshengubutton"
+          />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            style="@style/btnStyleGenoa"
+            android:text="Cancel"
+            android:id="@+id/url_cancel"
+            android:background="@xml/mshengubutton"
+            />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:id="@+id/current_url_label"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:id="@+id/current_url"
+            />
+
+</LinearLayout>

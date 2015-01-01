@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="en" />
+        <option name="targetHashString" value="android-16" />
+        <option name="theme" value="Sherlock.__Theme.DarkActionBar" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidExternalApklibDependenciesManager">
+    <artifacts>
+      <entry key="com.actionbarsherlock_actionbarsherlock_4.4.0" value="$MAVEN_REPOSITORY$/com/actionbarsherlock/actionbarsherlock/4.4.0/actionbarsherlock-4.4.0.apklib" />
+      <entry key="com.google.android.gms_google-play-services_10" value="$MAVEN_REPOSITORY$/com/google/android/gms/google-play-services/10/google-play-services-10.apklib" />
+      <entry key="com.viewpagerindicator_library_2.4.1" value="$MAVEN_REPOSITORY$/com/viewpagerindicator/library/2.4.1/library-2.4.1.apklib" />
+    </artifacts>
+    <sdk-infos>
+      <entry key="com.actionbarsherlock_actionbarsherlock_4.4.0">
+        <value>
+          <resolved-info>
+            <option name="apiLevel" value="14" />
+            <dependencies>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="android" />
+                <option name="groupId" value="com.google.android" />
+                <option name="libName" value="Maven: com.google.android:android:4.0.1.2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.0.1.2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="commons-logging" />
+                <option name="groupId" value="commons-logging" />
+                <option name="libName" value="Maven: commons-logging:commons-logging:1.1.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.1.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="httpclient" />
+                <option name="groupId" value="org.apache.httpcomponents" />
+                <option name="libName" value="Maven: org.apache.httpcomponents:httpclient:4.0.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.0.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="httpcore" />
+                <option name="groupId" value="org.apache.httpcomponents" />
+                <option name="libName" value="Maven: org.apache.httpcomponents:httpcore:4.0.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.0.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="commons-codec" />
+                <option name="groupId" value="commons-codec" />
+                <option name="libName" value="Maven: commons-codec:commons-codec:1.3" />
+                <option name="path" value="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.3/commons-codec-1.3.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.3" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="opengl-api" />
+                <option name="groupId" value="org.khronos" />
+                <option name="libName" value="Maven: org.khronos:opengl-api:gl1.1-android-2.1_r1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="gl1.1-android-2.1_r1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="xmlParserAPIs" />
+                <option name="groupId" value="xerces" />
+                <option name="libName" value="Maven: xerces:xmlParserAPIs:2.6.2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.6.2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="xpp3" />
+                <option name="groupId" value="xpp3" />
+                <option name="libName" value="Maven: xpp3:xpp3:1.1.4c" />
+                <option name="path" value="$MAVEN_REPOSITORY$/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.1.4c" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="json" />
+                <option name="groupId" value="org.json" />
+                <option name="libName" value="Maven: org.json:json:20080701" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/json/json/20080701/json-20080701.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="20080701" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="support-v4" />
+                <option name="groupId" value="com.google.android" />
+                <option name="libName" value="Maven: com.google.android:support-v4:r7" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/google/android/support-v4/r7/support-v4-r7.jar" />
+                <option name="scope" value="compile" />
+                <option name="type" value="jar" />
+                <option name="version" value="r7" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="junit" />
+                <option name="groupId" value="junit" />
+                <option name="libName" value="Maven: junit:junit:4.10" />
+                <option name="path" value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.10" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="hamcrest-core" />
+                <option name="groupId" value="org.hamcrest" />
+                <option name="libName" value="Maven: org.hamcrest:hamcrest-core:1.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="fest-assert-core" />
+                <option name="groupId" value="org.easytesting" />
+                <option name="libName" value="Maven: org.easytesting:fest-assert-core:2.0M10" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/easytesting/fest-assert-core/2.0M10/fest-assert-core-2.0M10.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.0M10" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="fest-util" />
+                <option name="groupId" value="org.easytesting" />
+                <option name="libName" value="Maven: org.easytesting:fest-util:1.2.5" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.2.5" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="robolectric" />
+                <option name="groupId" value="org.robolectric" />
+                <option name="libName" value="Maven: org.robolectric:robolectric:2.0" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/robolectric/robolectric/2.0/robolectric-2.0.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.0" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="objenesis" />
+                <option name="groupId" value="org.objenesis" />
+                <option name="libName" value="Maven: org.objenesis:objenesis:1.3" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/objenesis/objenesis/1.3/objenesis-1.3.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.3" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="sqlite-jdbc" />
+                <option name="groupId" value="org.xerial" />
+                <option name="libName" value="Maven: org.xerial:sqlite-jdbc:3.7.2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="3.7.2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="asm" />
+                <option name="groupId" value="org.ow2.asm" />
+                <option name="libName" value="Maven: org.ow2.asm:asm:4.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/ow2/asm/asm/4.1/asm-4.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="asm-commons" />
+                <option name="groupId" value="org.ow2.asm" />
+                <option name="libName" value="Maven: org.ow2.asm:asm-commons:4.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="asm-tree" />
+                <option name="groupId" value="org.ow2.asm" />
+                <option name="libName" value="Maven: org.ow2.asm:asm-tree:4.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="asm-util" />
+                <option name="groupId" value="org.ow2.asm" />
+                <option name="libName" value="Maven: org.ow2.asm:asm-util:4.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/ow2/asm/asm-util/4.1/asm-util-4.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="asm-analysis" />
+                <option name="groupId" value="org.ow2.asm" />
+                <option name="libName" value="Maven: org.ow2.asm:asm-analysis:4.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="vtd-xml" />
+                <option name="groupId" value="com.ximpleware" />
+                <option name="libName" value="Maven: com.ximpleware:vtd-xml:2.11" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/ximpleware/vtd-xml/2.11/vtd-xml-2.11.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.11" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="fest-reflect" />
+                <option name="groupId" value="org.easytesting" />
+                <option name="libName" value="Maven: org.easytesting:fest-reflect:1.4.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/easytesting/fest-reflect/1.4.1/fest-reflect-1.4.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.4.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="catch-exception" />
+                <option name="groupId" value="com.googlecode.catch-exception" />
+                <option name="libName" value="Maven: com.googlecode.catch-exception:catch-exception:1.0.4" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/googlecode/catch-exception/catch-exception/1.0.4/catch-exception-1.0.4.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.0.4" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="mockito-core" />
+                <option name="groupId" value="org.mockito" />
+                <option name="libName" value="Maven: org.mockito:mockito-core:1.8.5" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.8.5/mockito-core-1.8.5.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.8.5" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-ant-tasks" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-ant-tasks:2.1.3" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.1.3" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="ant" />
+                <option name="groupId" value="org.apache.ant" />
+                <option name="libName" value="Maven: org.apache.ant:ant:1.8.0" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/ant/ant/1.8.0/ant-1.8.0.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.8.0" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="ant-launcher" />
+                <option name="groupId" value="org.apache.ant" />
+                <option name="libName" value="Maven: org.apache.ant:ant-launcher:1.8.0" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.8.0" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="classworlds" />
+                <option name="groupId" value="classworlds" />
+                <option name="libName" value="Maven: classworlds:classworlds:1.1-alpha-2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.1-alpha-2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="plexus-container-default" />
+                <option name="groupId" value="org.codehaus.plexus" />
+                <option name="libName" value="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.0-alpha-9-stable-1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="plexus-utils" />
+                <option name="groupId" value="org.codehaus.plexus" />
+                <option name="libName" value="Maven: org.codehaus.plexus:plexus-utils:1.5.15" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.5.15" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="plexus-interpolation" />
+                <option name="groupId" value="org.codehaus.plexus" />
+                <option name="libName" value="Maven: org.codehaus.plexus:plexus-interpolation:1.11" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.11" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-artifact" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-artifact:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-artifact-manager" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-artifact-manager:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-repository-metadata" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-repository-metadata:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="wagon-provider-api" />
+                <option name="groupId" value="org.apache.maven.wagon" />
+                <option name="libName" value="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-6" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.0-beta-6" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="backport-util-concurrent" />
+                <option name="groupId" value="backport-util-concurrent" />
+                <option name="libName" value="Maven: backport-util-concurrent:backport-util-concurrent:3.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="3.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-model" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-model:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-project" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-project:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-settings" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-settings:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-profile" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-profile:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-plugin-registry" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-plugin-registry:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="maven-error-diagnostics" />
+                <option name="groupId" value="org.apache.maven" />
+                <option name="libName" value="Maven: org.apache.maven:maven-error-diagnostics:2.2.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.2.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="wagon-file" />
+                <option name="groupId" value="org.apache.maven.wagon" />
+                <option name="libName" value="Maven: org.apache.maven.wagon:wagon-file:1.0-beta-6" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.0-beta-6" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="wagon-http-lightweight" />
+                <option name="groupId" value="org.apache.maven.wagon" />
+                <option name="libName" value="Maven: org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-6" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.0-beta-6" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="wagon-http-shared" />
+                <option name="groupId" value="org.apache.maven.wagon" />
+                <option name="libName" value="Maven: org.apache.maven.wagon:wagon-http-shared:1.0-beta-6" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.0-beta-6" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="xercesMinimal" />
+                <option name="groupId" value="nekohtml" />
+                <option name="libName" value="Maven: nekohtml:xercesMinimal:1.9.6.2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.9.6.2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="nekohtml" />
+                <option name="groupId" value="nekohtml" />
+                <option name="libName" value="Maven: nekohtml:nekohtml:1.9.6.2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar" />
+                <option name="scope" value="test" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.9.6.2" />
+              </MavenDependencyInfo>
+            </dependencies>
+          </resolved-info>
+        </value>
+      </entry>
+      <entry key="com.google.android.gms_google-play-services_10">
+        <value>
+          <resolved-info>
+            <option name="apiLevel" value="" />
+          </resolved-info>
+        </value>
+      </entry>
+      <entry key="com.viewpagerindicator_library_2.4.1">
+        <value>
+          <resolved-info>
+            <option name="apiLevel" value="16" />
+            <dependencies>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="android" />
+                <option name="groupId" value="com.google.android" />
+                <option name="libName" value="Maven: com.google.android:android:4.1.1.4" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/google/android/android/4.1.1.4/android-4.1.1.4.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.1.1.4" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="commons-logging" />
+                <option name="groupId" value="commons-logging" />
+                <option name="libName" value="Maven: commons-logging:commons-logging:1.1.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.1.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="httpclient" />
+                <option name="groupId" value="org.apache.httpcomponents" />
+                <option name="libName" value="Maven: org.apache.httpcomponents:httpclient:4.0.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.0.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="httpcore" />
+                <option name="groupId" value="org.apache.httpcomponents" />
+                <option name="libName" value="Maven: org.apache.httpcomponents:httpcore:4.0.1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="4.0.1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="commons-codec" />
+                <option name="groupId" value="commons-codec" />
+                <option name="libName" value="Maven: commons-codec:commons-codec:1.3" />
+                <option name="path" value="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.3/commons-codec-1.3.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.3" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="opengl-api" />
+                <option name="groupId" value="org.khronos" />
+                <option name="libName" value="Maven: org.khronos:opengl-api:gl1.1-android-2.1_r1" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="gl1.1-android-2.1_r1" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="xmlParserAPIs" />
+                <option name="groupId" value="xerces" />
+                <option name="libName" value="Maven: xerces:xmlParserAPIs:2.6.2" />
+                <option name="path" value="$MAVEN_REPOSITORY$/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="2.6.2" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="xpp3" />
+                <option name="groupId" value="xpp3" />
+                <option name="libName" value="Maven: xpp3:xpp3:1.1.4c" />
+                <option name="path" value="$MAVEN_REPOSITORY$/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="1.1.4c" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="json" />
+                <option name="groupId" value="org.json" />
+                <option name="libName" value="Maven: org.json:json:20080701" />
+                <option name="path" value="$MAVEN_REPOSITORY$/org/json/json/20080701/json-20080701.jar" />
+                <option name="scope" value="provided" />
+                <option name="type" value="jar" />
+                <option name="version" value="20080701" />
+              </MavenDependencyInfo>
+              <MavenDependencyInfo>
+                <option name="artifactId" value="support-v4" />
+                <option name="groupId" value="com.google.android" />
+                <option name="libName" value="Maven: com.google.android:support-v4:r7" />
+                <option name="path" value="$MAVEN_REPOSITORY$/com/google/android/support-v4/r7/support-v4-r7.jar" />
+                <option name="scope" value="compile" />
+                <option name="type" value="jar" />
+                <option name="version" value="r7" />
+              </MavenDependencyInfo>
+            </dependencies>
+          </resolved-info>
+        </value>
+      </entry>
+    </sdk-infos>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-16" />
+        <option name="theme" value="Theme" />
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="secondAndroid" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/DeploymentFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/GeoPlotFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/resource/GeoplotResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/JSONParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/ServiceFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/xml/mshengubutton.xml" />
+    </list>
+    <ignored path="firstAndroid.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/fragment.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399730682510" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380148972533" ignored="false" />
+    <file path="/strings.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380151994535" ignored="false" />
+    <file path="/MainActivity.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399656284408" ignored="false" />
+    <file path="/main.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378820841780" ignored="false" />
+    <file path="/ShowMessage.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377861751738" ignored="false" />
+    <file path="/Dummy.txt" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399730304707" ignored="false" />
+    <file path="/show_message.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377791965857" ignored="false" />
+    <file path="/main_activity_menu.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380165990528" ignored="false" />
+    <file path="$USER_HOME$/Android-ViewPagerIndicator/sample/src/com/viewpagerindicator/sample/SampleTabsDefault.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377872257869" ignored="false" />
+    <file path="/SampleTabsDefault.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377872224985" ignored="false" />
+    <file path="/FragmentActivityExt.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377872551066" ignored="false" />
+    <file path="/SherlockActivityExt.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377872597325" ignored="false" />
+    <file path="/SherlockActivity.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377874254174" ignored="false" />
+    <file path="/TestFragmentAdapter.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1381850639057" ignored="false" />
+    <file path="/fragment1.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1381852590003" ignored="false" />
+    <file path="/Fragment1.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1382482222848" ignored="false" />
+    <file path="/Fragment2.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1382617541280" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/firstAndroid/Manifest.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418989810" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/gen/com/actionbarsherlock/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377882753317" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/gen/com/actionbarsherlock/Manifest.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377882753317" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/gen/com/actionbarsherlock/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1377882863685" ignored="false" />
+    <file path="/fragment2.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379682529106" ignored="false" />
+    <file path="/fragment3.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1381852355600" ignored="false" />
+    <file path="/fragment4.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378798073397" ignored="false" />
+    <file path="/Fragment3.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1382480273787" ignored="false" />
+    <file path="/Fragment4.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378140685728" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android-5-9/mshengu/src/main/java/zm/hashcode/android/mshengu/repository/Impl/DBAdapter.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378382400193" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android-5-9/mshengu/src/main/java/zm/hashcode/android/mshengu/repository/Impl/DatasourceDAOImpl.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378382620568" ignored="false" />
+    <file path="/DBAdapter.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399575691686" ignored="false" />
+    <file path="$PROJECT_DIR$/../DatabaseDemo/gen/ca/demo/databasedemo/Manifest.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378399045240" ignored="false" />
+    <file path="$PROJECT_DIR$/../DatabaseDemo/gen/ca/demo/databasedemo/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378399045240" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android-5-9/mshengu/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/src/android/support/v4/app/Watson.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378400936011" ignored="false" />
+    <file path="/Task.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378405608233" ignored="false" />
+    <file path="/SaveData.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1382483514962" ignored="false" />
+    <file path="$USER_HOME$/Android-ViewPagerIndicator/sample/target/generated-sources/r/com/viewpagerindicator/sample/Manifest.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378411540262" ignored="false" />
+    <file path="$USER_HOME$/Android-ViewPagerIndicator/sample/target/generated-sources/r/com/viewpagerindicator/sample/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378411636551" ignored="false" />
+    <file path="$USER_HOME$/Android-ViewPagerIndicator/sample/target/generated-sources/r/com/viewpagerindicator/sample/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378411623849" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/AndroidManifest.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418164913" ignored="false" />
+    <file path="$USER_HOME$/.IdeaIC12/system/compile-server/secondandroid_7bcc8b56/targets/java-production/library/android/generated_sources/build_config/com/viewpagerindicator/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378415405519" ignored="false" />
+    <file path="$USER_HOME$/Android-ViewPagerIndicator/library/target/generated-sources/r/com/viewpagerindicator/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378413736661" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/firstAndroid/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418989810" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/firstAndroid/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418989810" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/README.md" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418164903" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/target/checkstyle-result.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418164903" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/project.properties" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418164903" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/target/checkstyle-checker.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418164903" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/build.gradle" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418164903" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/lint.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378418164913" ignored="false" />
+    <file path="/list_detail.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378493496611" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/src/main/java/zm/hashcode/android/mshengu/view/ServiceFragment.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379093196077" ignored="false" />
+    <file path="/pom.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378814931605" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/widget/ActivityChooserView.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ListMenuItemView.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/MenuBuilder.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/MenuPopupHelper.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/widget/ShareActionProvider.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/app/ActionBarImpl.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenuItemView.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378817354490" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/app/ActionBar.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__themes.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__screen_action_bar_overlay.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="/AbsActionBarView.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378818799202" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__activity_chooser_view_list_item.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260101" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout-xlarge/abs__screen_action_bar_overlay.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260101" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout-xlarge/abs__screen_action_bar.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260101" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-w360dp/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260101" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__popup_menu_item_layout.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260101" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-w480dp/abs__bools.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__screen_simple_overlay_action_mode.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-land/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__action_bar_title_item.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-v14/abs__styles.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-v14/abs__themes.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-v11/abs__themes.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout-v14/sherlock_spinner_dropdown_item.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/library/res/values/vpi__attrs.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/library/res/values/vpi__defaults.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/library/res/values/vpi__styles.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/library/res/values/vpi__colors.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__attrs.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__config.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__bools.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__search_dropdown_item_icons_2line.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__activity_chooser_view.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__action_menu_item_layout.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__search_view.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__strings.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__styles.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__screen_action_bar.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__colors.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/layout/abs__screen_simple.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values/abs__ids.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260102" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-sw600dp/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-sw600dp/abs__bools.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-large-hdpi-1024x600/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/widget/SuggestionsAdapter.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-large-mdpi-1024x600/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-w480dp/abs__config.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-large-land-mdpi-1024x600/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-w500dp/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-w600dp/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/res/values-xlarge/abs__dimens.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenuView.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/animation/ObjectAnimator.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260103" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/view/NineViewGroup.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260104" ignored="false" />
+    <file path="$PROJECT_DIR$/libs/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineLinearLayout.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378819260104" ignored="false" />
+    <file path="$PROJECT_DIR$/actionbarsherlock/build.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378820991391" ignored="false" />
+    <file path="$PROJECT_DIR$/actionbarsherlock/res/layout/main.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378820991393" ignored="false" />
+    <file path="$PROJECT_DIR$/actionbarsherlock/AndroidManifest.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378820991393" ignored="false" />
+    <file path="$PROJECT_DIR$/titlepageindicator/res/layout/main.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378820991393" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/src/com/viewpagerindicator/TitlePageIndicator.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379694432498" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/res/color/vpi__dark_theme.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821558906" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/res/color/vpi__light_theme.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821558906" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/res/values/vpi__attrs.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821558906" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/res/values/vpi__defaults.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821558906" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/res/values/vpi__styles.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821558906" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/res/values/vpi__colors.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821558906" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/res/drawable/vpi__tab_indicator.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821558906" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__ic_clear.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__btn_cab_done_holo_dark.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__activated_background_holo_light.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__ic_clear_holo_light.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__activated_background_holo_dark.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/res/drawable/abs__btn_cab_done_holo_light.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378821877896" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/src/com/viewpagerindicator/IconPagerAdapter.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378892022444" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/AndroidManifest.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378828871007" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/gen-external-apklibs/com.google.android.gms_google-play-services_10/AndroidManifest.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378828871007" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/gen/com/actionbarsherlock/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379092341583" ignored="false" />
+    <file path="$PROJECT_DIR$/target/generated-sources/r/com/example/secondAndroid/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1382622600956" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/gen/com/viewpagerindicator/Manifest.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379416097572" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/gen/com/viewpagerindicator/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379416097572" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/gen/com/viewpagerindicator/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378891483818" ignored="false" />
+    <file path="$PROJECT_DIR$/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/gen/com/viewpagerindicator/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378891313481" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/src/com/viewpagerindicator/PageIndicator.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1378891465327" ignored="false" />
+    <file path="/PostData.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399729731741" ignored="false" />
+    <file path="/ServiceFragment.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399730478174" ignored="false" />
+    <file path="/UnitServiceResource.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1382482854673" ignored="false" />
+    <file path="/Connection.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399637943152" ignored="false" />
+    <file path="/SiteResource.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379598959511" ignored="false" />
+    <file path="/SiteReource.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379419427836" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/src/main/java/zm/hashcode/android/mshengu/model/SiteReource.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379419430301" ignored="false" />
+    <file path="/Sites.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399635274482" ignored="false" />
+    <file path="/UnitDeliveryResource.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379598648488" ignored="false" />
+    <file path="/SettingsActivity.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399730594139" ignored="false" />
+    <file path="/settings.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1381855069893" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379632168511" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379632168511" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379632168511" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/color/abs__primary_text_disable_only_holo_light.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/drawable/abs__list_selector_holo_dark.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/layout/abs__list_menu_item_radio.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/layout/abs__action_bar_home.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/drawable/abs__item_background_holo_dark.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/drawable/abs__btn_cab_done_holo_dark.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/layout/abs__screen_simple.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/drawable/abs__ic_clear.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/layout/abs__screen_action_bar.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/layout/abs__action_bar_tab.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/layout/abs__action_mode_bar.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/layout/abs__action_menu_item_layout.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/actionbarsherlock/res/drawable/abs__activated_background_holo_light.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379688284342" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.viewpagerindicator_library_2.4.1/AndroidManifest.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380046148455" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/target/generated-sources/r/zm/hashcode/android/mshengu/R.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379690921386" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/target/generated-sources/r/zm/hashcode/android/mshengu/Manifest.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379690921386" ignored="false" />
+    <file path="$PROJECT_DIR$/../mshengu-android/mshengu/target/generated-sources/r/zm/hashcode/android/mshengu/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1379690923882" ignored="false" />
+    <file path="/MapActivity.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380232664832" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/secondAndroid/Manifest.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380121343934" ignored="false" />
+    <file path="$USER_HOME$/apps/android-localizacion/src/net/sgoliver/android/MainLocalizacion.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380118076623" ignored="false" />
+    <file path="/MainLocalizacion.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380117888964" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/secondAndroid/BuildConfig.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380121437692" ignored="false" />
+    <file path="/LocationListener.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380158588346" ignored="false" />
+    <file path="/LocationListenerClass.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399654384330" ignored="false" />
+    <file path="/toast_success.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380665690964" ignored="false" />
+    <file path="/rounded_rect.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380664951891" ignored="false" />
+    <file path="/toast_fail.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1380665676309" ignored="false" />
+    <file path="/GeoplotResource.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1381856581857" ignored="false" />
+    <file path="/a.dummy" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1382618051492" ignored="false" />
+    <file path="/JSONParser.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399634076298" ignored="false" />
+    <file path="/GeoPlotFragment.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399728690664" ignored="false" />
+    <file path="/DeploymentFragment.java" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399728631973" ignored="false" />
+    <file path="/servicefragment.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399650211975" ignored="false" />
+    <file path="/geoplotfragment.xml" changelist="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" time="1399652119795" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="firstAndroid" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LocationListenerClass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/location/LocationListenerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="13" selection-start="3374" selection-end="4171" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="8" selection-start="3696" selection-end="3721" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/resource/SiteResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeploymentFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/DeploymentFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="50" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoPlotFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/GeoPlotFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="50" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/SettingsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="59" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.8974359">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/PostData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="377" column="35" selection-start="15218" selection-end="15218" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoplotResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/resource/GeoplotResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="13" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servicefragment.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/servicefragment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="178" column="16" selection-start="5452" selection-end="5452" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/ServiceFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="42" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="/opt/java/64/jdk1.7.0_25/jre/lib/security/cacerts" />
+    <option name="KEY_ALIAS" value="mshengu" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/SaveData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/MapActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/TestFragmentAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/database/DBAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/JSONParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/sites/Sites.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/Connection.java" />
+        <option value="$PROJECT_DIR$/res/layout/geoplotfragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/location/LocationListenerClass.java" />
+        <option value="$PROJECT_DIR$/res/layout/servicefragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/PostData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/ServiceFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/GeoPlotFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/DeploymentFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/secondAndroid/SettingsActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Second Android" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Second Android" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Second Android" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="width" value="1606" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="invalid-module-dependency(module:secondAndroid,actionbarsherlock1)" />
+      <problem id="invalid-module-dependency(module:secondAndroid,library1)" />
+      <problem id="unused-library(library:project:Maven: backport-util-concurrent:backport-util-concurrent:3.1)" />
+      <problem id="unused-library(library:project:Maven: classworlds:classworlds:1.1-alpha-2)" />
+      <problem id="unused-library(library:project:Maven: com.google.android:android:4.0.1.2)" />
+      <problem id="unused-library(library:project:Maven: com.google.android:android:4.1.1.4)" />
+      <problem id="unused-library(library:project:Maven: com.google.android:support-v4:r7)" />
+      <problem id="unused-library(library:project:Maven: com.googlecode.catch-exception:catch-exception:1.0.4)" />
+      <problem id="unused-library(library:project:Maven: com.ximpleware:vtd-xml:2.11)" />
+      <problem id="unused-library(library:project:Maven: commons-codec:commons-codec:1.3)" />
+      <problem id="unused-library(library:project:Maven: commons-logging:commons-logging:1.1.1)" />
+      <problem id="unused-library(library:project:Maven: junit:junit:4.10)" />
+      <problem id="unused-library(library:project:Maven: nekohtml:nekohtml:1.9.6.2)" />
+      <problem id="unused-library(library:project:Maven: nekohtml:xercesMinimal:1.9.6.2)" />
+      <problem id="unused-library(library:project:Maven: org.apache.ant:ant-launcher:1.8.0)" />
+      <problem id="unused-library(library:project:Maven: org.apache.ant:ant:1.8.0)" />
+      <problem id="unused-library(library:project:Maven: org.apache.httpcomponents:httpclient:4.0.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.httpcomponents:httpcore:4.0.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven.wagon:wagon-file:1.0-beta-6)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-6)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven.wagon:wagon-http-shared:1.0-beta-6)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-6)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-ant-tasks:2.1.3)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-artifact-manager:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-artifact:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-error-diagnostics:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-model:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-plugin-registry:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-profile:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-project:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-repository-metadata:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.apache.maven:maven-settings:2.2.1)" />
+      <problem id="unused-library(library:project:Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1)" />
+      <problem id="unused-library(library:project:Maven: org.codehaus.plexus:plexus-interpolation:1.11)" />
+      <problem id="unused-library(library:project:Maven: org.codehaus.plexus:plexus-utils:1.5.15)" />
+      <problem id="unused-library(library:project:Maven: org.easytesting:fest-assert-core:2.0M10)" />
+      <problem id="unused-library(library:project:Maven: org.easytesting:fest-reflect:1.4.1)" />
+      <problem id="unused-library(library:project:Maven: org.easytesting:fest-util:1.2.5)" />
+      <problem id="unused-library(library:project:Maven: org.hamcrest:hamcrest-core:1.1)" />
+      <problem id="unused-library(library:project:Maven: org.json:json:20080701)" />
+      <problem id="unused-library(library:project:Maven: org.khronos:opengl-api:gl1.1-android-2.1_r1)" />
+      <problem id="unused-library(library:project:Maven: org.mockito:mockito-core:1.8.5)" />
+      <problem id="unused-library(library:project:Maven: org.objenesis:objenesis:1.3)" />
+      <problem id="unused-library(library:project:Maven: org.ow2.asm:asm-analysis:4.1)" />
+      <problem id="unused-library(library:project:Maven: org.ow2.asm:asm-commons:4.1)" />
+      <problem id="unused-library(library:project:Maven: org.ow2.asm:asm-tree:4.1)" />
+      <problem id="unused-library(library:project:Maven: org.ow2.asm:asm-util:4.1)" />
+      <problem id="unused-library(library:project:Maven: org.ow2.asm:asm:4.1)" />
+      <problem id="unused-library(library:project:Maven: org.robolectric:robolectric:2.0)" />
+      <problem id="unused-library(library:project:Maven: org.xerial:sqlite-jdbc:3.7.2)" />
+      <problem id="unused-library(library:project:Maven: xerces:xmlParserAPIs:2.6.2)" />
+      <problem id="unused-library(library:project:Maven: xpp3:xpp3:1.1.4c)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="communication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secondAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/secondAndroid.apk" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.excludes" />
+    <property name="recentsLimit" value="5" />
+    <property name="ExportedModule" value="secondAndroid" />
+    <property name="last_opened_file_path" value="/opt/java/64/jdk1.7.0_25/jre/lib/security/cacerts" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4d000c674b3db061" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Galaxy_Nexus_by_Google" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.secondAndroid.fragment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/raw" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.secondAndroid">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="secondAndroid" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="secondAndroid" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="maps" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="maps" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.secondAndroid" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.maps" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df2a24d7-e64f-4ae9-91b2-ef1f637c1076" name="Default" comment="" />
+      <created>1377786803241</created>
+      <updated>1377786803241</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="0" width="1606" height="877" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27770177" sideWeight="0.506435" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30369356" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3042292" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28092784" sideWeight="0.8358413" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21557271" sideWeight="0.7222982" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27770177" sideWeight="0.493565" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.8166895" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.8166895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.82079345" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7004104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/database/DBAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="53" selection-start="6941" selection-end="6964" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="302" column="43" selection-start="10248" selection-end="10248" vertical-scroll-proportion="-12.16">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/deploymentfragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="15" selection-start="5811" selection-end="5811" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/geoplotfragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/resource/SiteResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/resource/GeoplotResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/location/LocationListenerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="13" selection-start="3374" selection-end="4171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/servicefragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="16" selection-start="5452" selection-end="5452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/communication/PostData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="377" column="35" selection-start="15218" selection-end="15218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="8" selection-start="3696" selection-end="3721" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/ServiceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="42" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/GeoPlotFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="50" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/fragment/DeploymentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="50" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/secondAndroid/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="59" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.8974359">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>secondAndroid</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>secondAndroid</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>actionbarsherlock-4.4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
